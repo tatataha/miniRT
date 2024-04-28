@@ -1,15 +1,17 @@
 # Mini_RT
 
-### Description
-    miniRT is an introductory project to the fascinating world of Ray Tracing. Once completed, you'll be able to generate simple Computer-Generated Images and won't be afraid of applying mathematical formulas anymore. In this project, you take your first steps with miniLibX, a Ray Tracer written in the C language. The primary goal of miniRT is to demonstrate your ability to apply mathematical or physics formulas. Here, we'll only implement the most basic ray tracing features.
+# Description
+miniRT is an introductory project to the fascinating world of Ray Tracing. Once completed, you'll be able to generate simple Computer-Generated Images and won't be afraid of applying mathematical formulas anymore. In this project, you take your first steps with miniLibX, a Ray Tracer written in the C language. The primary goal of miniRT is to demonstrate your ability to apply mathematical or physics formulas. Here, we'll only implement the most basic ray tracing features.
 
-***
+
 ### Requirements
 Before running this program on your computer, make sure you have installed those dependencies :
-`sudo apt-get update && sudo apt-get install xorg libxext-dev zlib1g-dev`
+```
+sudo apt-get update && sudo apt-get install xorg libxext-dev zlib1g-dev
+```
 
 
-***
+
 ### Objects
 
 * Ambient lightning: `A 0.2 255,255,255`
@@ -60,3 +62,30 @@ Before running this program on your computer, make sure you have installed those
     * x,y,z coordinates: 50.0,0.0,20.6
     * 3d normalized orientation vector. In range [-1,1] for each x,y,z axis: 0.0,0.0,1.0
     * R,G,B colors in range [0-255]: 255, 255, 255
+## Usage
+
+Clone project
+
+```bash
+  git clone https://github.com/tatataha/miniRT.git
+```
+
+Go to project directory
+
+```bash
+  cd miniRT
+```
+
+Make it
+
+```bash
+  make
+```
+
+Start game
+
+```bash
+  ./miniRT ./maps/"map name"
+```
+
+  
